@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514e;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+hr {
+  border: dotted #66BFBF 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 75px auto;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.profile {
+  width: 30%;
+  /*margin: 100px auto 100px auto;*/
+  margin: auto;
+}
+
+.contact-me {
+  /*margin: 100px auto 100px auto;*/
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  height: 720px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  padding-top: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #11999e;
+  padding: 50px 0 20px;
+}
+
+.park {
+  position: relative;
+  top: 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 75px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 350px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+}
+
+.globe-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-img {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.button-dlb {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: normal;
+   padding: 10px;
+   background-color: #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 40px;
+}
+
+.button-dlb:hover {
+   background: #30E3CB;
+   border: solid #2BC4AD 1px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #eaf6f6;
+  font-size: 0.75rem;
+}
